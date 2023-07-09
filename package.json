@@ -1,0 +1,21 @@
+{
+  "name": "mini-vue-learn",
+  "version": "1.0.0",
+  "main": "packages/vue/dist/mini-vue.cjs.js",
+  "module": "packages/vue/dist/mini-vue.esm.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest",
+    "build": "rollup -c rollup.config.js --bundleConfigAsCjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "rollup": "^3.21.5",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.0"
+  }
+}

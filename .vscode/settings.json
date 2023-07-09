@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.fontFamily": "FiraCode-Medium",
+    "jestrunner.jestCommand": "vitest"
+}
